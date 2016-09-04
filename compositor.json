@@ -1,0 +1,80 @@
+{
+  "name": "kcparashar/field-guides",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.21"
+  },
+  "title": "Field Guides",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://fg.atrus.co",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/kcparashar/field-guides",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "field-guides",
+      "subhead": "Field guides for the wild world of computers. ",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "field-guides: Field guides for the wild world of computers. ",
+          "url": "http://fg.atrus.co"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "kcparashar",
+          "repo": "field-guides"
+        }
+      ]
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/kcparashar/field-guides",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/kcparashar",
+          "text": "kcparashar"
+        }
+      ]
+    }
+  ]
+}
